@@ -15,7 +15,7 @@ calorias_sentado= 1.66
 
 calorias = tiempo_actividad * consumo_por_minuto
 
-if actividad = calorias_dormir: 
+if actividad == calorias_dormir: 
     calorias = tiempo_actividad *  calorias_dormir
 else : 
     calorias = tiempo_actividad *  calorias_sentado
